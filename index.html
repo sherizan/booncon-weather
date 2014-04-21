@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>booncon PIXELS Weather Forecast</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="flat-ui/images/favicon.ico">
+        <link rel="stylesheet" href="css/style.css">
+
+
+    </head>
+
+    <body id="top">
+
+    <div class="logo">
+        <img src="images/logo-booncon.png">
+    </div>
+
+    <div id="content">
+
+        <div class="postal">
+            <div class="postal-1">
+                <form action="weather" method="post">
+                    <label>
+                     <input id="name" placeholder="Type your Code" maxlength="6" name="fname" autofocus type="text" onkeyup="this.value=this.value.replace(/[^\d]/,'')" />
+                    </label>
+                
+            </div>
+            <div class="postal-2">
+                <img src="images/line-01.png">
+            </div>
+            <div class="postal-3">
+                <a data-scroll class="btn-go" href="#blue">GO</a>
+                </form>
+            </div>
+            <br style="clear: left;" />
+        </div>
+
+        <p class="demo">Postal codes you saved previously</p> <p> <a data-scroll class="btn-code" href="#blue">00980</a> <a data-scroll class="btn-code" href="#blue">10029</a> <a data-scroll class="btn-code" href="#blue">22454</a></p>
+
+    </div>
+
+    <div class="purple-gradient">
+        <div class="purple-img">
+        </div>
+    <div>
+
+    <span id="blue"></span>
+    <div class="blue">
+
+        <div class="code">
+            00180 Helsinki
+        </div>
+
+        <div class="blue-0">
+            <div class="blue-1">
+               
+                <img src="images/weather-sunny.png"> 
+
+                <p class="date">SATURDAY</p>
+                <div class="temp">15 <div class="small">&deg;C</div></div>
+
+            </div>
+            <div class="blue-2">
+                <img src="images/line-02.png">
+            </div>
+            <div class="blue-3">
+                <p class="weather">Sunny</p>
+                <p class="weather-desc">Dust off those Ray-bans, you’re gonna need it!</p>
+                <p><a data-scroll href="#orange" class="btn-go">5-day Forecast</a></p>
+            </div>
+            <br style="clear: left;" />
+        </div>
+
+    <div>
+
+    <span id="orange"></span>
+    <div class="orange">
+        <div class="orange-0">
+            <div class="orange-1">              
+                <img src="images/weather-sunny.png" width="50%"> 
+                <p class="date">MONDAY</p>
+                <div class="temp">19 <div class="small">&deg;C</div></div>
+                <div class="date2">Sunny</div>
+            </div>
+
+            <div class="orange-x">
+                <img src="images/line-03.png">
+            </div>
+
+            <div class="orange-1">              
+                <img src="images/weather-cloudy.png" width="50%"> 
+                <p class="date">TUESDAY</p>
+                <div class="temp">13 <div class="small">&deg;C</div></div>
+                <div class="date2">Cloudy</div>
+            </div>
+
+            <div class="orange-x">
+                <img src="images/line-03.png">
+            </div>
+
+             <div class="orange-1">
+                <img src="images/weather-rain.png" width="50%"> 
+                <p class="date">WEDNESDAY</p>
+                <div class="temp">8 <div class="small">&deg;C</div></div>
+                <div class="date2">Rain</div>
+            </div>
+
+            <div class="orange-x">
+                <img src="images/line-03.png">
+            </div>
+
+            <div class="orange-1">
+                <img src="images/weather-storm.png" width="50%"> 
+                <p class="date">THURSDAY</p>
+                <div class="temp">4 <div class="small">&deg;C</div></div>
+                <div class="date2">Thunderstorm</div>
+            </div>
+
+            <div class="orange-x">
+                <img src="images/line-03.png">
+            </div>
+
+            <div class="orange-1">
+                <img src="images/weather-snow.png" width="50%"> 
+                <p class="date">FRIDAY</p>
+                <div class="temp">-7 <div class="small">&deg;C</div></div>
+                <div class="date2">Snow</div>
+            </div>
+
+            <br style="clear: left;" />
+
+        </div>
+
+        <p align="center"><a data-scroll href="#top" class="btn-go">Enter a new code</a></p>
+
+    <div>
+
+    <div class="footer">
+        Designed & coded by Sherizan for Booncon PIXELS.
+    </div>
+
+    <script src='js/smooth-scroll.js'></script>
+    <script>
+        smoothScroll.init({
+            speed: 1000,
+            easing: 'easeInOutCubic',
+            offset: 0,
+            updateURL: false,
+            callbackBefore: function ( toggle, anchor ) {},
+            callbackAfter: function ( toggle, anchor ) {}
+        });
+    </script>
+
+</body>
+</html>
