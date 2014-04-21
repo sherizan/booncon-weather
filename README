@@ -13,3 +13,5 @@ Include the weather information you feel is useful to the user. We might ask you
 You are free to design the layout however you want. You don't have to create image assets from scratch however if you choose pre-existing assets the style should match the rest of the page.
 
 Bonus points: create a 5 day forecast in addition to the day's weather for each location.
+
+DEMO: http://sherizan.com/weather/
